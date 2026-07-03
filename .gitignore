@@ -1,0 +1,9 @@
+# Pipeline build artifacts
+python-pipeline/config.env
+python-pipeline/dist/
+node-pipeline/config.env
+node-pipeline/dist/
+go-pipeline/config.env
+go-pipeline/dist/
+*/work/
+.DS_Store

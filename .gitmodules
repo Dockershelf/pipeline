@@ -1,0 +1,57 @@
+[submodule "go-pipeline"]
+	path = go-pipeline
+	url = https://github.com/Dockershelf/go-pipeline.git
+[submodule "go1.20"]
+	path = go1.20
+	url = https://github.com/Dockershelf/go1.20.git
+[submodule "go1.21"]
+	path = go1.21
+	url = https://github.com/Dockershelf/go1.21.git
+[submodule "go1.22"]
+	path = go1.22
+	url = https://github.com/Dockershelf/go1.22.git
+[submodule "go1.23"]
+	path = go1.23
+	url = https://github.com/Dockershelf/go1.23.git
+[submodule "go1.24"]
+	path = go1.24
+	url = https://github.com/Dockershelf/go1.24.git
+[submodule "go1.25"]
+	path = go1.25
+	url = https://github.com/Dockershelf/go1.25.git
+[submodule "node-pipeline"]
+	path = node-pipeline
+	url = https://github.com/Dockershelf/node-pipeline.git
+[submodule "node16"]
+	path = node16
+	url = https://github.com/Dockershelf/node16.git
+[submodule "node18"]
+	path = node18
+	url = https://github.com/Dockershelf/node18.git
+[submodule "node20"]
+	path = node20
+	url = https://github.com/Dockershelf/node20.git
+[submodule "node22"]
+	path = node22
+	url = https://github.com/Dockershelf/node22.git
+[submodule "node24"]
+	path = node24
+	url = https://github.com/Dockershelf/node24.git
+[submodule "python-pipeline"]
+	path = python-pipeline
+	url = https://github.com/Dockershelf/python-pipeline.git
+[submodule "py3.10"]
+	path = py3.10
+	url = https://github.com/Dockershelf/py3.10.git
+[submodule "py3.11"]
+	path = py3.11
+	url = https://github.com/Dockershelf/py3.11.git
+[submodule "py3.12"]
+	path = py3.12
+	url = https://github.com/Dockershelf/py3.12.git
+[submodule "py3.13"]
+	path = py3.13
+	url = https://github.com/Dockershelf/py3.13.git
+[submodule "py3.14"]
+	path = py3.14
+	url = https://github.com/Dockershelf/py3.14.git
