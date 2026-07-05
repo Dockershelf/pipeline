@@ -35,6 +35,12 @@ make list-dists
 
 See [python-pipeline/README.md](python-pipeline/README.md) and [docs/operations.md](python-pipeline/docs/operations.md).
 
+Upstream `cpython/` submodules are large; initialize on demand:
+
+```bash
+../init-cpython-submodules.sh py3.14
+```
+
 ## Node.js
 
 ```bash
