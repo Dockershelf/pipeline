@@ -20,29 +20,23 @@ fi
 
 for name in "${TARGETS[@]}"; do
     repo="${ROOT}/${name}"
-    major="${name#node}"
     if [ ! -d "${repo}/.git" ]; then
         echo "SKIP ${name}: not a git repo"
         continue
     fi
     echo "==> ${name}"
     cd "${repo}"
-    rm -f node/.gitkeep
     if [ -d node/.git ]; then
         echo "    node submodule already initialized"
         continue
     fi
+    # Read branch from .gitmodules (default to main if not specified)
+    branch="$(git config -f .gitmodules submodule.node.branch 2>/dev/null || echo main)"
     rm -rf node
     git submodule update --init --depth 1 node 2>/dev/null || {
-        git clone --filter=blob:none --branch "v${major}.x" \
-            https://github.com/nodejs/node.git node || {
-            git clone --filter=blob:none https://github.com/nodejs/node.git node
-            (
-                cd node
-                git checkout "v${major}.x" 2>/dev/null \
-                    || git checkout "$(git tag -l "v${major}.*" --sort=-v:refname | head -1)"
-            )
-        }
+        echo "    submodule update failed; cloning node ${branch} branch..."
+        git clone --filter=blob:none --branch "${branch}" \
+            https://github.com/nodejs/node.git node
         git add node .gitmodules
         git commit -m "Add node upstream submodule" || true
     }
