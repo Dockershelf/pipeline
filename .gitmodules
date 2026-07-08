@@ -55,3 +55,9 @@
 [submodule "py3.14"]
 	path = py3.14
 	url = https://github.com/Dockershelf/py3.14.git
+[submodule "node26"]
+	path = node26
+	url = https://github.com/Dockershelf/node26.git
+[submodule "go1.26"]
+	path = go1.26
+	url = https://github.com/Dockershelf/go1.26.git
