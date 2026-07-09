@@ -1,12 +1,6 @@
 [submodule "go-pipeline"]
 	path = go-pipeline
 	url = https://github.com/Dockershelf/go-pipeline.git
-[submodule "go1.20"]
-	path = go1.20
-	url = https://github.com/Dockershelf/go1.20.git
-[submodule "go1.21"]
-	path = go1.21
-	url = https://github.com/Dockershelf/go1.21.git
 [submodule "go1.22"]
 	path = go1.22
 	url = https://github.com/Dockershelf/go1.22.git
@@ -22,9 +16,6 @@
 [submodule "node-pipeline"]
 	path = node-pipeline
 	url = https://github.com/Dockershelf/node-pipeline.git
-[submodule "node16"]
-	path = node16
-	url = https://github.com/Dockershelf/node16.git
 [submodule "node18"]
 	path = node18
 	url = https://github.com/Dockershelf/node18.git

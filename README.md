@@ -20,8 +20,8 @@ dockershelf-pipeline/
 ├── node-pipeline/     https://github.com/Dockershelf/node-pipeline
 ├── go-pipeline/       https://github.com/Dockershelf/go-pipeline
 ├── py3.10/ … py3.14/  Python packaging repos
-├── node16/ … node24/  Node.js packaging repos
-└── go1.20/ … go1.25/  Go repackaging repos
+├── node18/ … node26/  Node.js packaging repos
+└── go1.22/ … go1.26/  Go repackaging repos
 ```
 
 ## Python
