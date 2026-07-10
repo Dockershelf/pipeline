@@ -8,3 +8,24 @@ go-pipeline/dist/
 */work/
 .DS_Store
 .github/
+# Rosey Agentic Environment
+rosey/brainstorms/
+rosey/plans/
+rosey/designs/
+rosey/solutions/
+rosey/insights/
+rosey/design-system/
+rosey/qa/
+rosey/deepening/
+rosey/agentic-env.json
+rosey/maintainer-manifest.json
+rosey/hindsight-pin
+AGENTS.md
+DESIGN.md
+.cursor/
+.github/copilot-instructions.md
+.github/instructions/
+.github/skills/
+.github/agents/
+.github/hooks/
+.vscode/mcp.json
