@@ -1,9 +1,6 @@
 [submodule "go-pipeline"]
 	path = go-pipeline
 	url = https://github.com/Dockershelf/go-pipeline.git
-[submodule "go1.22"]
-	path = go1.22
-	url = https://github.com/Dockershelf/go1.22.git
 [submodule "go1.23"]
 	path = go1.23
 	url = https://github.com/Dockershelf/go1.23.git
@@ -52,3 +49,6 @@
 [submodule "go1.26"]
 	path = go1.26
 	url = https://github.com/Dockershelf/go1.26.git
+[submodule "go1.27"]
+	path = go1.27
+	url = https://github.com/Dockershelf/go1.27.git

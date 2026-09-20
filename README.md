@@ -21,7 +21,7 @@ dockershelf-pipeline/
 ├── go-pipeline/       https://github.com/Dockershelf/go-pipeline
 ├── py3.10/ … py3.14/  Python packaging repos
 ├── node18/ … node26/  Node.js packaging repos
-└── go1.22/ … go1.26/  Go repackaging repos
+└── go1.23/ … go1.27/  Go repackaging repos
 ```
 
 APT droplet hosting (reprepro, nginx, bootstrap) lives in the sibling repo [dockershelf-apt](https://github.com/Dockershelf/dockershelf-apt). It is not a submodule of this workspace.
